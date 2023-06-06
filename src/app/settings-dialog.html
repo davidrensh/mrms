@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Settings {{data.name}}</h1>
+<div mat-dialog-content>
+  <p>Want:    <mat-checkbox class="example-margin" [checked]="womanChecked"><mat-icon >woman</mat-icon></mat-checkbox>
+    <mat-checkbox class="example-margin" [checked]="manChecked"><mat-icon >man</mat-icon></mat-checkbox> <br/>
+    Location:
+    
+  </p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+</div>

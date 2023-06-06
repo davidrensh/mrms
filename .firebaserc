@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mrmslist": {
+      "hosting": {
+        "mrms": [
+          "mrmslist"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mrmslist"
+  }
+}
